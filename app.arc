@@ -1,8 +1,8 @@
 @app
-begin-app
+monapp
 
 @http
-get /
+get /api
 
 @tables
 data
