@@ -23,30 +23,30 @@ let body = `
 </html>
 `
 
-// export async function handler (req: object) {
-//   return {
-//     statusCode: 200,
-//     headers: {
-//       'content-type': 'text/html; charset=utf8',
-//       'cache-control': 'no-cache, no-store, must-revalidate, max-age=0, s-maxage=0'
-//     }
-//     ,
-//     body
-//   }
-// }
+export async function handler (req: object) {
+  return {
+    statusCode: 200,
+    headers: {
+      'content-type': 'text/html; charset=utf8',
+      'cache-control': 'no-cache, no-store, must-revalidate, max-age=0, s-maxage=0'
+    }
+    ,
+    body
+  }
+}
 
 // Example responses
 
 /* Forward requester to a new path*/
-export async function handler (req: object) {
-  return {
-    statusCode: 302,
-    headers: {
-      'location': '/about',
-      'cache-control': 'no-cache, no-store, must-revalidate, max-age=0, s-maxage=0'
-    }
-  }
-}
+// export async function handler (req: object) {
+//   return {
+//     statusCode: 302,
+//     headers: {
+//       'location': '/about',
+//       'cache-control': 'no-cache, no-store, must-revalidate, max-age=0, s-maxage=0'
+//     }
+//   }
+// }
 
 
 /* Respond with successful resource creation

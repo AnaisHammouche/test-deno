@@ -17,7 +17,7 @@
   "arc": {
     "app": "monapp",
     "http": [
-      { "get": "/about"}
+      { "get": "http://localhost:3333/"}
     ]
   }
 }
