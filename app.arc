@@ -2,7 +2,7 @@
 monapp
 
 @http
-get /api
+get /api/test
 
 @tables
 data
